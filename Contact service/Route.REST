@@ -1,0 +1,15 @@
+### Add contact
+POST http://localhost:3000/contacts/add 
+Content-Type: application/json
+
+{
+"_id":"644fe74e57ed0b12de1bb922", "contact":"User5432"
+}
+
+### Delete contact 
+POST http://localhost:3000/contacts/delete 
+Content-Type: application/json
+
+{
+"_id":"644fe74e57ed0b12de1bb922", "contact":"User555"
+}

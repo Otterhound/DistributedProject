@@ -1,0 +1,15 @@
+### Add contact
+POST http://localhost:3000/groups/add 
+Content-Type: application/json
+
+{
+"groupName": "Group2", "owner":"user2", "Members":["User2, User3, User4, User5"]
+}
+
+### Delete contact 
+POST http://localhost:3000/groups/delete 
+Content-Type: application/json
+
+{
+    "_id":"644fe7ee42fbf092e232d8fa"
+}
